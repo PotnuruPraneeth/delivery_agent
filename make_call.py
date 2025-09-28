@@ -12,8 +12,8 @@ client = Client(account_sid, auth_token)
 
 call = client.calls.create(
     url="https://adjectively-unattentive-tripp.ngrok-free.dev/voice",
-    to="+918247641247",
-    from_="+18325361432",
+    to="+91",
+    from_="+1",
 )
 
 print(call.sid)
